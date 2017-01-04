@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article>
+	<header style="text-align: center">
+    <h1>{{ page.title | escape }}</h1>
+    <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %b %Y" }}</time></p>
+  </header>
+	<div>
+		{{ content }}
+	</div>
+</article>

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+<div style="text-align: center;">
+	<h2>
+		<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+	</h2>
+	<div class="post-time">
+		<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+	</div>
+	{% if post.snippet %}
+	<div class="post-snippet">
+		<span>{{ post.snippet}}</span>
+	</div>
+	{% endif %}
+	<hr>
+</div>
+{% endfor %}

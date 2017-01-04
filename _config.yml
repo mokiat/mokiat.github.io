@@ -1,0 +1,18 @@
+# Global settings
+title: Momchil Atanasov's Blog
+author: Momchil Atanasov
+email: momchil.dev@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  If it's working on the first run, you are likely using TDD and Clean Code.
+url: ""
+baseurl: ""
+github_username: mokiat
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
