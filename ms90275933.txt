@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "mokiat.com",
+  "Id": "78cdb706-eb50-41be-9d5c-93b9e7457d19"
+}
